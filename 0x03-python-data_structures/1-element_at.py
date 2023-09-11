@@ -2,7 +2,7 @@
 def element_at(my_list, idx):
     if idx < 0:
         return None
-    elif idx>5:
+    elif idx==my_list[4:]:   #idx>my_list[4]
         return None
     else:
         return idx
