@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
+    out = 5
     if idx < 0:
         return None
-    elif idx == my_list[-1]:
+    elif idx > out:
         return None
     else:
         return idx
